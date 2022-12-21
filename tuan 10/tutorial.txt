@@ -1,0 +1,3 @@
+Xác định F0 bằng hàm AMDF và Xử lý đồng hình. Vẽ đáp ứng biên độ của tuyến âm dùng LPC cho âm "a" có file wav A96.WAV
+Dùng librosa: ai = librosa.lpc(tinhieuvao, p) ​để có các hệ số ai, p = 14. Sau đó thêm các mẫu = 0 vào cuối để kích thước 
+mảng ai bằng 256 rối tính FFT của mảng này.
